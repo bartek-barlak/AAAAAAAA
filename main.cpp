@@ -37,7 +37,9 @@ int main() {
                 printf("%d + %d = %d\n", number1, number2, result);
                 break;
             case 2:
-
+                enterNumbers(&number1, &number2);
+                result = number1 - number2;
+                printf("%d - %d = %d\n", number1, number2, result);
                 break;
             case 3:
 
